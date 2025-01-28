@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional global styling if needed */
+html, body {
+  @apply bg-base-100;
+  margin: 0;
+  padding: 0;
+}
